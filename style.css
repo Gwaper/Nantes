@@ -1,13 +1,14 @@
-
-/*bakground card*/
-
-
+@font-face{
+  font-family: "EB Garamond", serif;
+  src:url("EBGaramond-Bold.ttf") format(ttf);
+  
+}
 .padding, header
 {
     margin: 0% !important;
     padding: 0% !important;
     
-}
+} 
 footer, header, .test {
     background-color:#F2F2F2;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
@@ -107,4 +108,16 @@ h1 {
   font-size: 16px;
   padding-bottom: 2%;
 }
+#map { 
+  position:absolute; 
+  top:0; 
+  bottom:0; 
+  width:100%; 
+  }
+  
+  .mapboxgl-popup { 
+  max-width: 200px; 
+  text-align: center; 
+  }
+  
   
