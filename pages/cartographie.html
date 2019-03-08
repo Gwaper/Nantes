@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
   <head>
     <meta charset='utf-8' />
     <title>NANTES - Lieux visités, Lieux à visiter</title>
     <!--BOOTSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!--MAPBOX-->
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+    <!--CSS-->
     <link rel="stylesheet" href="../style.css">
     <style>
       body { margin:0; padding:0; }
@@ -58,7 +59,7 @@
             container: 'map', // container id
             style: 'mapbox://styles/mapbox/light-v9', // stylesheet location
             center: [-1.55, 47.21], // starting position [lng, lat]
-            zoom: 13, // starting zoom
+            zoom: 12, // starting zoom
             attributionControl: false
             });
           // add zoom controle
@@ -68,10 +69,10 @@
           // POPUPS----------------------------------------------------------
           // definition of the popup: TRENTEMOULT
           var popup_trentemoult = new mapboxgl.Popup({ offset: 25 })
-            .setHTML("<h1><a href=\"../pages/chateau.html\" title=\"En savoir plus sur Trentemoult\">TRENTEMOULT</a></h1> <p><img src=\"../assets/images/trentemoult_mini.jpg\"></p> <p>Trentemoult, is a cute and typical little fishermen port of Loire region</p>")
+            .setHTML("<h1><a href=\"../pages/lieu-unique.html\" title=\"En savoir plus sur Trentemoult\">TRENTEMOULT</a></h1> <p><img src=\"../assets/images/trentemoult_mini.jpg\"></p> <p>Trentemoult, is a cute and typical little fishermen port of Loire region</p>")
           // definition of the popup: MACHINES
           var popup_machines = new mapboxgl.Popup({ offset: 25 })
-            .setHTML("<h1><a href=\"../pages/chateau.html\" title=\"En savoir plus sur les Machines\">LES MACHINES</a></h1> <p><img src=\"../assets/images/machine1_mini.jpg\"></p> <p>Venez decouvrir l'elephant, le carousel, et tous les animaux fantastiques de Jules Verne qui prennent vie sous les doigts magiques de la compagnie Royale Deluxe</p>")
+            .setHTML("<h1><a href=\"../pages/machines.html\" title=\"En savoir plus sur les Machines\">LES MACHINES</a></h1> <p><img src=\"../assets/images/machine1_mini.jpg\"></p> <p>Venez decouvrir l'elephant, le carousel, et tous les animaux fantastiques de Jules Verne qui prennent vie sous les doigts magiques de la compagnie Royale Deluxe</p>")
           // definition of the popup: CHATEAU
           var popup_chateau = new mapboxgl.Popup({ offset: 25 })
             .setHTML("<h1><a href=\"../pages/chateau.html\" title=\"En savoir plus sur le Chateau\">LE CHATEAU</a></h1> <p><img src=\"../assets/images/chateau_mini.jpg\"></p> <p>Le chateau d'Anne de Bretagne, accueille désormais le musée de la ville de Nantes. Venez découvrir l'histoire de Nantes depuis le moyen age, jusqu'a la rehabilitation des friches industrielles en passant par l'esclavagisme</p>")
