@@ -1,8 +1,5 @@
-@font-face{
-  font-family: "EB Garamond", serif;
-  src:url("EBGaramond-Bold.ttf") format(ttf);
-  
-}
+@import url(http://fr.allfont.net/allfont.css?fonts=garamond);
+
 .padding, header
 {
     margin: 0% !important;
@@ -11,6 +8,7 @@
 } 
 footer, header, .test {
     background-color:#F2F2F2;
+    font-family: 'Garamond', arial;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
@@ -41,10 +39,18 @@ body
   background-color:#F2F2F2;
   
 }
+.bord
+{
+  font-size: 20px;
+}
 
 li
 {
     list-style: none;
+}
+body
+{
+  font-family: 'Garamond', arial;
 }
 h1 {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
