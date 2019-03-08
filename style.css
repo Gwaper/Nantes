@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width: 1024px)
 {
     .loupe
@@ -24,15 +25,25 @@
 }
 /*bakground card*/
 
+=======
+@import url(http://fr.allfont.net/allfont.css?fonts=garamond);
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
 
 .padding, header
 {
     margin: 0% !important;
     padding: 0% !important;
     
+<<<<<<< HEAD
 }
 footer, header, .test {
     background-color:#F2F2F2;
+=======
+} 
+footer, header, .test {
+    background-color:#F2F2F2;
+    font-family: 'Garamond', arial;
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
@@ -59,13 +70,31 @@ body
     background-color:#F2F2F2;
 }
 
+<<<<<<< HEAD
+=======
+.bgnav{
+  background-color:#F2F2F2;
+  
+}
+.bord
+{
+  font-size: 20px;
+}
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
 
 li
 {
     list-style: none;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> DevMaelenn
+=======
+body
+{
+  font-family: 'Garamond', arial;
+}
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
 h1 {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-size: 24px;
@@ -76,9 +105,15 @@ h1 {
   }
   
 <<<<<<< HEAD
+<<<<<<< HEAD
   h2 {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-size: 20px;
+=======
+  h2 {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 25px;
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -87,8 +122,14 @@ h1 {
   
   h3 {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+<<<<<<< HEAD
     font-size: 14px;
     font-style: normal;
+=======
+    font-size: 19px;
+    font-style: normal;
+    
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
     font-variant: normal;
     font-weight: 700;
     line-height: 15.4px;
@@ -99,7 +140,11 @@ h1 {
     font-size: 14px;
     font-style: normal;
     font-variant: normal;
+<<<<<<< HEAD
     font-weight: 400;
+=======
+    font-weight: bold;
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
     line-height: 20px;
   }
   
@@ -120,6 +165,7 @@ h1 {
     font-weight: 400;
     line-height: 18.5714px;
   }
+<<<<<<< HEAD
  
   
 =======
@@ -301,11 +347,22 @@ input[type=submit]:hover {
 >>>>>>> aaa159bb3eb1a8cf221f1e114c5172bf6db159dd
 =======
 
+=======
+.underline
+{
+  text-decoration: underline;
+  font-weight: bold ;
+  text-align: center ;
+  font-size: 16px;
+  padding-bottom: 2%;
+}
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
 #map { 
   position:absolute; 
   top:0; 
   bottom:0; 
   width:100%; 
+<<<<<<< HEAD
 }
 
 .mapboxgl-popup { 
@@ -352,3 +409,13 @@ body {
       color: black;
     }
 >>>>>>> blog
+=======
+  }
+  
+  .mapboxgl-popup { 
+  max-width: 200px; 
+  text-align: center; 
+  }
+  
+  
+>>>>>>> 048401faf4a4a5d60eee7fceff59b9c1a3743e16
