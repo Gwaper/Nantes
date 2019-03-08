@@ -10,7 +10,10 @@ body {
     background-color: #F2F2F2F2;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   }
-
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
   .test {
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-size: 12px;
@@ -33,4 +36,8 @@ body {
 
     a {
       color: black;
+    }
+
+    li {
+      list-style: none;
     }
